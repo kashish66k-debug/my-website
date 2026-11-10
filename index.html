@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="VASHORA — thoughtful digital experiences, modern websites and creative solutions.">
+  <title>VASHORA — Digital Studio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            ink: '#111827',
+            cream: '#F7F5F0',
+            coral: '#F26B5B',
+            lilac: '#DCD6FF'
+          },
+          fontFamily: {
+            display: ['Georgia', 'serif']
+          },
+          boxShadow: {
+            soft: '0 24px 70px rgba(17, 24, 39, .10)'
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    html { scroll-behavior: smooth; }
+    .grain { background-image: radial-gradient(rgba(17,24,39,.08) .7px, transparent .7px); background-size: 8px 8px; }
+    .orb { background: radial-gradient(circle at 35% 30%, #fff 0, #f7b5a8 22%, #f26b5b 58%, #a83e55 100%); }
+  </style>
+</head>
+<body class="bg-cream text-ink antialiased">
+  <header class="mx-auto flex max-w-7xl items-center justify-between px-6 py-6 lg:px-10">
+    <a href="#" class="flex items-center gap-3" aria-label="VASHORA home">
+      <span class="grid h-10 w-10 place-items-center rounded-xl bg-ink text-sm font-black tracking-tight text-white">V.</span>
+      <span class="text-xl font-black tracking-[0.18em]">VASHORA</span>
+    </a>
+    <nav class="hidden items-center gap-9 text-sm font-medium text-slate-600 md:flex">
+      <a class="transition hover:text-coral" href="#about">About</a>
+      <a class="transition hover:text-coral" href="#services">Services</a>
+      <a class="transition hover:text-coral" href="#work">Our approach</a>
+    </nav>
+    <a href="#contact" class="rounded-full bg-ink px-5 py-3 text-sm font-semibold text-white transition hover:bg-coral">Let’s talk <span aria-hidden="true">↗</span></a>
+  </header>
+
+  <main>
+    <section class="relative isolate overflow-hidden">
+      <div class="absolute -right-28 top-10 -z-10 h-80 w-80 rounded-full bg-lilac/70 blur-3xl"></div>
+      <div class="absolute -left-32 bottom-0 -z-10 h-72 w-72 rounded-full bg-coral/10 blur-3xl"></div>
+      <div class="mx-auto grid max-w-7xl items-center gap-14 px-6 pb-24 pt-16 lg:grid-cols-[1.05fr_.95fr] lg:px-10 lg:pb-32 lg:pt-24">
+        <div>
+          <div class="mb-8 inline-flex items-center gap-2 rounded-full border border-slate-200 bg-white/70 px-4 py-2 text-xs font-semibold uppercase tracking-[0.16em] text-slate-600">
+            <span class="h-2 w-2 rounded-full bg-coral"></span> Independent digital studio
+          </div>
+          <h1 class="max-w-3xl text-6xl font-semibold leading-[.98] tracking-[-0.055em] sm:text-7xl lg:text-[5.8rem]">
+            Make your<br><span class="font-display font-normal italic text-coral">next idea</span> matter.
+          </h1>
+          <p class="mt-8 max-w-xl text-lg leading-8 text-slate-600">
+            We shape clear, thoughtful digital experiences for ambitious ideas — from a first impression to a website people love to use.
+          </p>
+          <div class="mt-10 flex flex-wrap items-center gap-4">
+            <a href="#services" class="rounded-full bg-coral px-7 py-4 text-sm font-bold text-white shadow-lg shadow-coral/20 transition hover:-translate-y-1 hover:bg-ink">Explore what we do <span aria-hidden="true">↗</span></a>
+            <a href="#about" class="rounded-full border border-slate-300 px-7 py-4 text-sm font-bold transition hover:border-ink">Discover VASHORA</a>
+          </div>
+          <div class="mt-16 flex items-center gap-8 border-t border-slate-200 pt-7">
+            <div><p class="text-2xl font-bold">01</p><p class="mt-1 text-xs uppercase tracking-widest text-slate-500">Think clearly</p></div>
+            <div class="h-10 w-px bg-slate-200"></div>
+            <div><p class="text-2xl font-bold">02</p><p class="mt-1 text-xs uppercase tracking-widest text-slate-500">Design simply</p></div>
+            <div class="h-10 w-px bg-slate-200"></div>
+            <div><p class="text-2xl font-bold">03</p><p class="mt-1 text-xs uppercase tracking-widest text-slate-500">Build boldly</p></div>
+          </div>
+        </div>
+        <div class="relative mx-auto w-full max-w-xl">
+          <div class="absolute -left-5 top-12 z-10 rounded-2xl bg-white p-4 shadow-soft sm:-left-10">
+            <p class="text-[10px] font-bold uppercase tracking-[.2em] text-slate-400">Good ideas deserve</p>
+            <p class="mt-1 text-sm font-bold">A beautiful beginning.</p>
+          </div>
+          <div class="relative aspect-[4/5] overflow-hidden rounded-[2rem] bg-[#E9E4DC] shadow-soft">
+            <div class="grain absolute inset-0 opacity-60"></div>
+            <div class="orb absolute left-[16%] top-[13%] h-[68%] w-[68%] rounded-full shadow-2xl"></div>
+            <div class="absolute -right-8 bottom-[-5%] h-[55%] w-[55%] rotate-[-18deg] rounded-[2rem] border-[18px] border-white/80 bg-[#DCD6FF] shadow-xl"></div>
+            <div class="absolute bottom-8 left-8 right-8 flex items-end justify-between text-white">
+              <div><p class="text-xs font-semibold uppercase tracking-[.25em]">VASHORA / 2026</p><p class="mt-2 font-display text-3xl italic">Ideas in form.</p></div>
+              <span class="grid h-12 w-12 place-items-center rounded-full bg-white/20 text-2xl backdrop-blur">✳</span>
+            </div>
+          </div>
+          <div class="absolute -bottom-7 -right-3 rounded-2xl bg-ink px-6 py-5 text-white shadow-soft sm:-right-8">
+            <p class="text-xs uppercase tracking-[.2em] text-white/50">Our point of view</p>
+            <p class="mt-1 text-lg font-semibold">Less noise. More meaning.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="bg-white py-24">
+      <div class="mx-auto grid max-w-7xl gap-10 px-6 lg:grid-cols-[.7fr_1.3fr] lg:px-10">
+        <p class="text-xs font-bold uppercase tracking-[.22em] text-coral">01 / Who we are</p>
+        <div>
+          <h2 class="max-w-4xl text-4xl font-semibold leading-tight tracking-[-.04em] sm:text-5xl">A fresh perspective for a world that never stands still.</h2>
+          <p class="mt-7 max-w-3xl text-lg leading-8 text-slate-600">VASHORA is a creative digital studio built around one simple belief: great work starts with understanding. We bring strategy, design and technology together to make digital experiences feel effortless and memorable.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="py-24">
+      <div class="mx-auto max-w-7xl px-6 lg:px-10">
+        <div class="flex flex-wrap items-end justify-between gap-6">
+          <div><p class="text-xs font-bold uppercase tracking-[.22em] text-coral">02 / What we do</p><h2 class="mt-4 text-4xl font-semibold tracking-[-.04em] sm:text-5xl">Good thinking.<br><span class="font-display font-normal italic">Beautifully built.</span></h2></div>
+          <p class="max-w-sm text-base leading-7 text-slate-600">The right mix of creativity and clarity to help your brand move forward.</p>
+        </div>
+        <div class="mt-14 grid gap-4 md:grid-cols-3">
+          <article class="group rounded-3xl bg-white p-8 shadow-sm transition hover:-translate-y-2 hover:shadow-soft">
+            <span class="grid h-12 w-12 place-items-center rounded-2xl bg-[#FCE5DF] text-2xl">✳</span>
+            <p class="mt-12 text-xs font-bold uppercase tracking-widest text-coral">01</p>
+            <h3 class="mt-3 text-2xl font-semibold">Web design</h3>
+            <p class="mt-4 leading-7 text-slate-600">Clean, responsive websites that tell your story and make every visit count.</p>
+          </article>
+          <article class="group rounded-3xl bg-ink p-8 text-white shadow-sm transition hover:-translate-y-2 hover:shadow-soft">
+            <span class="grid h-12 w-12 place-items-center rounded-2xl bg-white/10 text-2xl">◈</span>
+            <p class="mt-12 text-xs font-bold uppercase tracking-widest text-[#F7A99D]">02</p>
+            <h3 class="mt-3 text-2xl font-semibold">Brand identity</h3>
+            <p class="mt-4 leading-7 text-white/65">A distinct visual language that helps your business look consistent and confident.</p>
+          </article>
+          <article class="group rounded-3xl bg-[#E7E2FF] p-8 shadow-sm transition hover:-translate-y-2 hover:shadow-soft">
+            <span class="grid h-12 w-12 place-items-center rounded-2xl bg-white/70 text-2xl">↗</span>
+            <p class="mt-12 text-xs font-bold uppercase tracking-widest text-[#6B5BB5]">03</p>
+            <h3 class="mt-3 text-2xl font-semibold">Digital growth</h3>
+            <p class="mt-4 leading-7 text-slate-600">Useful digital content and experiences that turn attention into meaningful action.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="work" class="bg-[#EEEAE3] py-24">
+      <div class="mx-auto max-w-7xl px-6 lg:px-10">
+        <p class="text-xs font-bold uppercase tracking-[.22em] text-coral">03 / Our approach</p>
+        <div class="mt-5 grid gap-12 lg:grid-cols-2">
+          <h2 class="text-4xl font-semibold leading-tight tracking-[-.04em] sm:text-5xl">Small details.<br><span class="font-display font-normal italic">Big difference.</span></h2>
+          <div class="space-y-7">
+            <div class="flex gap-5 border-b border-slate-300 pb-6"><span class="font-display text-2xl italic text-coral">01</span><div><h3 class="text-xl font-semibold">Listen first</h3><p class="mt-2 leading-7 text-slate-600">We start with your goals, audience and the problem worth solving.</p></div></div>
+            <div class="flex gap-5 border-b border-slate-300 pb-6"><span class="font-display text-2xl italic text-coral">02</span><div><h3 class="text-xl font-semibold">Make it clear</h3><p class="mt-2 leading-7 text-slate-600">We turn the big picture into a focused, thoughtful direction.</p></div></div>
+            <div class="flex gap-5"><span class="font-display text-2xl italic text-coral">03</span><div><h3 class="text-xl font-semibold">Make it real</h3><p class="mt-2 leading-7 text-slate-600">We build, refine and deliver an experience ready for the world.</p></div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="bg-ink py-24 text-white">
+      <div class="mx-auto max-w-7xl px-6 lg:px-10">
+        <p class="text-xs font-bold uppercase tracking-[.22em] text-[#F7A99D]">04 / Start a conversation</p>
+        <div class="mt-6 flex flex-col justify-between gap-10 md:flex-row md:items-end">
+          <h2 class="max-w-3xl text-5xl font-semibold leading-[1.02] tracking-[-.05em] sm:text-7xl">Have an idea?<br><span class="font-display font-normal italic text-[#F7A99D]">Let’s shape it.</span></h2>
+          <a href="mailto:hello@vashora.com" class="inline-flex w-fit items-center gap-4 rounded-full bg-white px-7 py-4 text-sm font-bold text-ink transition hover:bg-coral hover:text-white">hello@vashora.com <span class="text-xl">↗</span></a>
+        </div>
+        <div class="mt-20 flex flex-col justify-between gap-4 border-t border-white/15 pt-7 text-xs text-white/50 sm:flex-row">
+          <a href="#" class="font-black tracking-[.2em] text-white">VASHORA</a>
+          <p>Thoughtfully made for what’s next.</p>
+          <p>© 2026 VASHORA. All rights reserved.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
